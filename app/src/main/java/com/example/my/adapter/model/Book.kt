@@ -1,10 +1,11 @@
 package com.example.asignment1.adapter.model
 
+import android.net.Uri
 import com.google.firebase.firestore.Exclude
 import java.io.Serializable
 import java.util.*
 
-data class Book (
+data class Book(
     @Exclude var id: String?,
     var name: String = "",
     var author: String = "",
